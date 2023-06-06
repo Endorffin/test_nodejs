@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@crowdin/crowdin-api-client": "^1.23.1",
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.6"
+  },
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "main": "login_page.html",
+  "scripts": {
+    "start server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

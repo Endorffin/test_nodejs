@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+	<meta charset = "UTF-8">
+    <script type="module" src="https://crowdin-web-components.s3.amazonaws.com/crowdin-web-components/crowdin-web-components.esm.js"></script>
+    <script type = "text/javascript" src = "index.js" > </script>    
+	<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+        <form action="/add" method="POST" class="input_form">
+            <crowdin-input
+                type="text"
+                with-fixed-height
+                is-not-floating
+                label="Project Id"
+                value=""
+                name="id"
+				id = "id"
+            ></crowdin-input>
+            <crowdin-input
+                type="text"
+                with-fixed-height
+                is-not-floating
+                label="Personal Access Token"
+                value=""
+                name="token"
+				id = "token"
+            ></crowdin-input>
+            <crowdin-button  onclick="success()" primary>Записати в БД</crowdin-button>
+        </form>
+    </div>
+</body>
+</html>
