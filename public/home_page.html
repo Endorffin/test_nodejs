@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>LOGIN PAGE</title>
+    <title>HOME PAGE</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="style.css" >
     <script type="module" src="https://crowdin-web-components.s3.amazonaws.com/crowdin-web-components/crowdin-web-components.esm.js"></script>
@@ -11,7 +11,12 @@
     <div class="container">
        
         <crowdin-files-component custom-content-is-clickable="true" search-placeholder="Search something" root-name="Project name"></crowdin-files-component>
-        <crowdin-button primary onclick="test()">Set crowdin data and open folder</crowdin-button>
+        <br><br>
+        <crowdin-button primary onclick="setDataCrowdin()">Відобразити дані з crowdin</crowdin-button>
+        <br><br>
+        <crowdin-button disabled primary>Скачати файли</crowdin-button>
+        <crowdin-button disabled primary>Завантажити файл</crowdin-button>
+
     </div>
     
 

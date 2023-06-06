@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "main": "login_page.html",
   "scripts": {
-    "start server": "node server.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
